@@ -50,5 +50,8 @@ public class ejercicio2_clase2 {
         if (suma1 == num2 && suma2 == num1) {
             System.out.println("Los numeros son amigos");
         }
+        else {
+            System.out.println("Los numeros no son amigos");
+        }
     }
 }
