@@ -14,7 +14,7 @@ public class ejercicio1_clase3 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Introduce la cantidad de personas: ");
         int N = scanner.nextInt();
-        double alturas[] = new double[N];
+        double[] alturas = new double[N];
         double suma = 0;
         for (int i = 0; i < N; i++) {
             System.out.println("Introduce la altura de la persona " + (i + 1) + ": ");
